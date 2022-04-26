@@ -1,0 +1,23 @@
+h3,
+h2,
+h1 {
+  font-size: 1.2rem;
+}
+
+.info-img {
+  width: 200px;
+  height: 200px;
+}
+
+.group {
+  display: flex;
+}
+
+.group h2 {
+  background-color: rgb(255, 159, 33);
+  border: 2px solid grey;
+
+  width: 135px;
+  border-radius: 5px;
+  text-align: center;
+}

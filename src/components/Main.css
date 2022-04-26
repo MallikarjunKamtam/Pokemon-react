@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+}
+
+.left-container {
+  width: 50%;
+  background-color: cornsilk;
+  height: 100%;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.right-container {
+  width: 50%;
+  height: 100%;
+  background-color: cornsilk;
+  text-align: center;
+  color: black;
+  position: fixed;
+  right: 0;
+}
+
+.right-container img {
+  margin: 1rem;
+}
+
+.right-container h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.abilities {
+  width: 30%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.abilities .group {
+  padding: 0.5rem;
+  font-size: 12px;
+  border-radius: 8px;
+}
+
+.base-stat {
+  margin-top: 2rem;
+}
+
+.buttons {
+  position: absolute;
+  z-index: 10;
+  top: 260px;
+  left: 0;
+}
